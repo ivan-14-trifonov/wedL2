@@ -1,0 +1,64 @@
+a {
+    color: blue; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+a:visited {
+    color: #5f27cd; /* Цвет посещённой ссылки */
+   } 
+a:hover {
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
+
+.withoutMarkers {
+    list-style-type: none; /* Убираем маркеры*/
+}
+
+.productPageHeaders{
+    color: black; /* Цвет текста*/
+    font-size: 18pt; /* Размер шрифта в пунктах */
+    font-weight: 400; /* Насыщенность */
+}
+
+body {
+    background-color: #f0f0f0; /* Цвет фона веб-страницы */
+}
+
+.shortDescription{
+    color: #8800f0; /* Цвет текста*/
+    font-size: 14pt; /* Размер шрифта в пунктах */
+    font-style: italic; / Начертание текста  /
+    line-height: 16pt; /* Высота текста */
+}
+
+.detailedDescription{
+    color: #484343; /* Цвет текста*/
+    font-size: 16pt; /* Размер шрифта в пунктах */
+    font-weight: 400; /* Насыщенность */
+    line-height: 26pt; /* Высота текста */
+    text-align: left; /*Выравнивание*/
+}
+
+.specifications{
+    color: #a52a2a; /* Цвет*/
+    font-size: 14pt; / Размер шрифта в пунктах /
+    font-family: Georgia, Times, serif; / Семейство шрифтов /
+}
+
+ul {
+    list-style-image: url(Check_mark+.png);
+}
+
+.frame{
+    border: 4px solid #220471; /*Рамка вокруг рисунка*/
+}
+
+input[type=text] {
+    font-size:16px;
+    font-family: Candara, Times, serif; / Семейство шрифтов /
+}
+
+textarea 
+{ 
+    font-size:16px;
+    font-family: Candara, Times, serif; / Семейство шрифтов /
+}
